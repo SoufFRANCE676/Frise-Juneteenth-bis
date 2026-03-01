@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu Drag & Drop - REL</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    iframe {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      max-width: 100%;
+    }
+    footer {
+      background-color: #e0e0e0;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #005f73;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jeu Drag & Drop - Ressource Éducative Libre (REL)</h1>
+</header>
+
+<main>
+  <!-- Intégration H5P -->
+  <iframe src="https://app.lumi.education/api/v1/run/mh0kbh/embed"
+          width="1088" height="720"
+          frameborder="0"
+          allowfullscreen="allowfullscreen"
+          allow="geolocation *; microphone *; camera *; midi *; encrypted-media *">
+  </iframe>
+  <script src="https://app.lumi.education/api/v1/h5p/core/js/h5p-resizer.js" charset="UTF-8"></script>
+</main>
+
+<footer>
+  <p>Cette ressource pédagogique ne collecte aucune donnée personnelle.
+     Ressource réalisée dans le cadre universitaire.</p>
+  <p>Licence : <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></p>
+</footer>
+
+</body>
+</html>
